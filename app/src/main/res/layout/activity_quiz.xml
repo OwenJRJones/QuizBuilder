@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuizActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvQuizUser"
+            android:layout_width="266dp"
+            android:layout_height="match_parent"
+            android:layout_margin="0dp"
+            android:padding="10dp"
+            android:text="@string/tvQuizUser"
+            android:textAlignment="textStart"
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvtScore"
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_margin="0dp"
+            android:padding="10dp"
+            android:text="@string/tvScore"
+            android:textAlignment="textEnd"
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvDefinition"
+            android:layout_width="match_parent"
+            android:layout_height="182dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/border"
+            android:padding="5dp"
+            android:text="@string/tvDefinition"
+            android:textColor="@android:color/secondary_text_light"
+            android:textSize="20sp"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btnT1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:padding="18dp"
+            android:text="@string/btnT1"
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btnT2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:padding="18dp"
+            android:text="@string/btnT2"
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btnT3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:padding="18dp"
+            android:text="@string/btnT3"
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck" />
+
+        <Button
+            android:id="@+id/btnT4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:padding="18dp"
+            android:text="@string/btnT4"
+            android:textSize="18sp"
+            tools:ignore="TextContrastCheck" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

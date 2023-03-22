@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Quick Quiz</string>
+    <string name="tvNamePrompt">Please enter your first name:</string>
+    <string name="etUserName">Tap to enter your name</string>
+    <string name="btnStartQuiz">Start Quiz</string>
+    <string name="tvOwenJones">Quick Quiz built by Owen Jones</string>
+    <string name="tvQuizUser">User\'s Quiz</string>
+    <string name="tvScore">Score: %d/%d</string>
+    <string name="tvDefinition">Definition</string>
+    <string name="btnT1">Term 1</string>
+    <string name="btnT2">Term 2</string>
+    <string name="btnT3">Term 3</string>
+    <string name="btnT4">Term 4</string>
+    <string name="QuizComplete">Quiz Completed!</string>
+    <string name="Restart">Restart Quiz?</string>
+    <string name="tvError">It looks like the file selected for the quiz does not have an equal number of definitions and terms. Please close the app, check the file, and try again.</string>
+    <string name="tvWhoops">Whoops!</string>
+</resources>
